@@ -7,5 +7,5 @@ pin "@hotwired/stimulus-loading", to: "stimulus-loading.js", preload: true
 pin_all_from "app/javascript/controllers", under: "controllers"
 pin "@rails/actioncable", to: "actioncable.esm.js"
 pin_all_from "app/javascript/channels", under: "channels"
-pin "channels/comment_channel", to: "channels/comment_channel.js"
-pin "channels/consumer", to: "channels/consumer.js"
+pin "channels/comment_channel", to: "channels/comment_channel.js" #こちら追記
+pin "channels/consumer", to: "channels/consumer.js" #こちら追記

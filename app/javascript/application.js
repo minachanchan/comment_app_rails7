@@ -2,6 +2,6 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import "channels"
-import "channels/comment_channel"
-import "channels/consumer"
+import "channels/comment_channel" //こちら追記
+import "channels/consumer" //こちら追記
 
