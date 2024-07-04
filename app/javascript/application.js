@@ -2,5 +2,5 @@
 import "@hotwired/turbo-rails"
 import "controllers"
 import "channels"
-import "comment_channel"
+import "channels/comment_channel"
 
