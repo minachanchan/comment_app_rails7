@@ -1,7 +1,7 @@
 import consumer from "channels/consumer"
 
 // Turboのライフサイクルイベントを使用して、DOMContentLoadedの代わりに処理
-document.addEventListener("turbo:load", function() {
+const comment = () => {
   if(location.pathname.match(/\/items\/\d/)){
     console.log("読み込み完了")
 
@@ -31,4 +31,7 @@ document.addEventListener("turbo:load", function() {
       }
     })
   }
-})
+}
+
+window.addEventListener("turbo:load", comment);
+window.addEventListener("turbo:render", comment);
