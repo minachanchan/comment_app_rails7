@@ -1,4 +1,4 @@
-import consumer from "../consumer"
+import consumer from "channels/consumer"
 
 if(location.pathname.match(/\/items\/\d/)){
   console.log("読み込み完了")
