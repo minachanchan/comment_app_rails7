@@ -5,6 +5,6 @@
   <div class="posted-content">
     <%= image_tag item.image %><br>
     <%= item.name%><br>
-    <%= link_to '詳細', item_path(item.id)%>
+    <%= link_to '詳細', item_path(item.id),data:{turbo: false}%>
   </div>
 <% end %>
